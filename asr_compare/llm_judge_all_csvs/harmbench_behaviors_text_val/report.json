@@ -1,0 +1,14 @@
+{
+  "dataset": "harmbench_behaviors_text_val.csv",
+  "n": 80,
+  "adapter_a": "./results/training/ul/None/final_model",
+  "adapter_b": "./experiments_originalCAT/training/ul/1/final_model",
+  "refusal_rate_A": 0.9875,
+  "refusal_rate_B": 0.9625,
+  "judge_unsafe_rate_A": 1.0,
+  "judge_unsafe_rate_B": 0.9705882352941176,
+  "judge_unknown_A": 47,
+  "judge_unknown_B": 46,
+  "raw_unsafe_count_A": 33,
+  "raw_unsafe_count_B": 33
+}

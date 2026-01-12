@@ -1,0 +1,149 @@
+{
+  "input": "./asr_compare/llm_judge_all_csvs/harmbench_behaviors_multimodal_all/responses.jsonl",
+  "A": {
+    "n": 110,
+    "refusal_rate": 0.6,
+    "degeneration_rate_any": 0.0,
+    "sorry_loop_rate": 0.0,
+    "num_tokens": {
+      "mean": 24.845454545454544,
+      "median": 7.0,
+      "min": 7.0,
+      "max": 143.0
+    },
+    "distinct1": {
+      "mean": 0.8746994010159712,
+      "median": 1.0,
+      "min": 0.46153846153846156,
+      "max": 1.0
+    },
+    "distinct2": {
+      "mean": 0.9782651420479259,
+      "median": 1.0,
+      "min": 0.7403846153846154,
+      "max": 1.0
+    },
+    "rep2": {
+      "mean": 0.021734857952074065,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.2596153846153846
+    },
+    "rep3": {
+      "mean": 0.007252166019208461,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.11650485436893199
+    },
+    "max_consecutive_token_run": {
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "zlib_ratio": {
+      "mean": 1.1029498559721178,
+      "median": 1.3478260869565217,
+      "min": 0.4870775347912525,
+      "max": 1.3478260869565217
+    },
+    "sorry_count": {
+      "mean": 0.6,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "sorry_max_run": {
+      "mean": 0.6,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "refusal_quality_total_among_refusals": {
+      "mean": 2.0,
+      "median": 2.0,
+      "min": 2.0,
+      "max": 2.0
+    },
+    "refusal_quality_apology_rate_among_refusals": 1.0,
+    "refusal_quality_policy_rate_among_refusals": 0.0,
+    "refusal_quality_redirect_rate_among_refusals": 0.0
+  },
+  "B": {
+    "n": 110,
+    "refusal_rate": 0.5636363636363636,
+    "degeneration_rate_any": 0.0,
+    "sorry_loop_rate": 0.0,
+    "num_tokens": {
+      "mean": 26.5,
+      "median": 7.0,
+      "min": 7.0,
+      "max": 212.0
+    },
+    "distinct1": {
+      "mean": 0.864351255291099,
+      "median": 1.0,
+      "min": 0.4939759036144578,
+      "max": 1.0
+    },
+    "distinct2": {
+      "mean": 0.9728459292935899,
+      "median": 1.0,
+      "min": 0.6666666666666666,
+      "max": 1.0
+    },
+    "rep2": {
+      "mean": 0.02715407070641012,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.33333333333333337
+    },
+    "rep3": {
+      "mean": 0.009632735512663615,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.16049382716049387
+    },
+    "max_consecutive_token_run": {
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "zlib_ratio": {
+      "mean": 1.0591675432842471,
+      "median": 1.3478260869565217,
+      "min": 0.5116279069767442,
+      "max": 1.3478260869565217
+    },
+    "sorry_count": {
+      "mean": 0.5454545454545454,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "sorry_max_run": {
+      "mean": 0.5454545454545454,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "refusal_quality_total_among_refusals": {
+      "mean": 1.967741935483871,
+      "median": 2.0,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "refusal_quality_apology_rate_among_refusals": 0.967741935483871,
+    "refusal_quality_policy_rate_among_refusals": 0.0,
+    "refusal_quality_redirect_rate_among_refusals": 0.0
+  },
+  "delta": {
+    "refusal_rate_A_minus_B": 0.036363636363636376,
+    "degeneration_rate_any_A_minus_B": 0.0,
+    "sorry_loop_rate_A_minus_B": 0.0,
+    "refusal_quality_total_mean_A_minus_B": 0.032258064516129004,
+    "rep3_mean_A_minus_B": -0.0023805694934551534,
+    "zlib_ratio_mean_A_minus_B": 0.043782312687870695
+  }
+}

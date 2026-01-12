@@ -1,0 +1,9 @@
+{
+  "n": 200,
+  "adapter_a": "./results/training/ul/None/final_model",
+  "adapter_b": "./experiments_originalCAT/training/ul/1/final_model",
+  "refusal_rate_A": 0.995,
+  "refusal_rate_B": 0.985,
+  "asr_proxy_not_refusal_A": 0.0050000000000000044,
+  "asr_proxy_not_refusal_B": 0.015000000000000013
+}
