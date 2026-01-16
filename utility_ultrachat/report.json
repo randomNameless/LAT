@@ -1,0 +1,32 @@
+{
+  "A": {
+    "base_model": "HuggingFaceH4/zephyr-7b-beta",
+    "adapter": "./results/training/ul/None/final_model",
+    "data_dir": "./data/utility/ultrachat_200k_eval",
+    "max_samples": 5000,
+    "batch_size": 2,
+    "max_seq_len": 2048,
+    "dtype": "bf16",
+    "n_rows_total": 5000,
+    "n_rows_used": 5000,
+    "n_rows_skipped_no_assistant": 0,
+    "assistant_tokens_scored": 1580409,
+    "mean_nll_loss": 1.1624502987385459,
+    "perplexity": 3.1977591495470743
+  },
+  "B": {
+    "base_model": "HuggingFaceH4/zephyr-7b-beta",
+    "adapter": "./experiments_originalCAT/training/ul/1/final_model",
+    "data_dir": "./data/utility/ultrachat_200k_eval",
+    "max_samples": 5000,
+    "batch_size": 2,
+    "max_seq_len": 2048,
+    "dtype": "bf16",
+    "n_rows_total": 5000,
+    "n_rows_used": 5000,
+    "n_rows_skipped_no_assistant": 0,
+    "assistant_tokens_scored": 1580409,
+    "mean_nll_loss": 1.1863059002939138,
+    "perplexity": 3.274960802436512
+  }
+}
