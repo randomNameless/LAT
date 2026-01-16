@@ -1,0 +1,14 @@
+{
+  "root_dir": "/home/selab/Desktop/LAT/asr_compare_and_quality_analysis/llm_judge_all_csvs",
+  "judge_model": "gpt-4.1",
+  "total_seen": 1310,
+  "passed_records": 105,
+  "judged_a": 105,
+  "judged_b": 105,
+  "unsafe_a": 34,
+  "unsafe_b": 49,
+  "unknown_a": 0,
+  "unknown_b": 0,
+  "unsafe_rate_a_excl_unknown": 0.3238095238095238,
+  "unsafe_rate_b_excl_unknown": 0.4666666666666667
+}

@@ -1,0 +1,67 @@
+{
+  "A": {
+    "log_path": "run_A.log",
+    "anchors": {
+      "start_anchor_mode": "loaded",
+      "start_time": "2026-01-06T01:04:30.649000",
+      "end_time_last_total_loss": "2026-01-06T10:24:38.518000",
+      "first_total_loss": "2026-01-06T01:05:41.147000",
+      "last_total_loss": "2026-01-06T10:24:38.518000",
+      "first_loaded_data": "2026-01-06T01:04:30.649000",
+      "first_running": "2026-01-06T00:53:04.433000"
+    },
+    "counts": {
+      "total_loss_lines": 6240,
+      "total_loss_lines_used_after_warmup": 6238,
+      "warmup_steps_dropped": 2,
+      "running_lines": 3,
+      "loaded_data_lines": 1
+    },
+    "efficiency_from_total_loss_timestamps": {
+      "eff_window_start": "2026-01-06T01:05:43.210000",
+      "eff_window_end": "2026-01-06T10:24:38.518000",
+      "eff_window_seconds": 33535.308,
+      "sec_per_logged_step": 5.376833092833093,
+      "logged_steps_per_sec": 0.18598308385895845,
+      "interval_sec_mean": 5.376833092833093,
+      "interval_sec_min": 0.661,
+      "interval_sec_max": 35.07
+    },
+    "overall_runtime_seconds": 33607.869
+  },
+  "B": {
+    "log_path": "run_B.log",
+    "anchors": {
+      "start_anchor_mode": "loaded",
+      "start_time": "2025-12-20T23:33:54.762000",
+      "end_time_last_total_loss": "2025-12-21T04:23:27.743000",
+      "first_total_loss": "2025-12-20T23:34:45.494000",
+      "last_total_loss": "2025-12-21T04:23:27.743000",
+      "first_loaded_data": "2025-12-20T23:33:54.762000",
+      "first_running": "2025-12-20T23:21:08.419000"
+    },
+    "counts": {
+      "total_loss_lines": 6120,
+      "total_loss_lines_used_after_warmup": 6118,
+      "warmup_steps_dropped": 2,
+      "running_lines": 2,
+      "loaded_data_lines": 1
+    },
+    "efficiency_from_total_loss_timestamps": {
+      "eff_window_start": "2025-12-20T23:34:47.290000",
+      "eff_window_end": "2025-12-21T04:23:27.743000",
+      "eff_window_seconds": 17320.453,
+      "sec_per_logged_step": 2.83152738270394,
+      "logged_steps_per_sec": 0.35316628266015904,
+      "interval_sec_mean": 2.83152738270394,
+      "interval_sec_min": 0.709,
+      "interval_sec_max": 25.147
+    },
+    "overall_runtime_seconds": 17372.981
+  },
+  "delta_A_minus_B": {
+    "sec_per_logged_step": 2.5453057101291527,
+    "logged_steps_per_sec": -0.16718319880120058,
+    "eff_window_seconds": 16214.854999999996
+  }
+}
